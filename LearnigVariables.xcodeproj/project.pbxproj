@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6023D5518E7DF4400DE779C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6023D5418E7DF4400DE779C /* Foundation.framework */; };
+		F6023D5718E7DF4400DE779C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6023D5618E7DF4400DE779C /* CoreGraphics.framework */; };
+		F6023D5918E7DF4400DE779C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6023D5818E7DF4400DE779C /* UIKit.framework */; };
+		F6023D5F18E7DF4400DE779C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6023D5D18E7DF4400DE779C /* InfoPlist.strings */; };
+		F6023D6118E7DF4400DE779C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6023D6018E7DF4400DE779C /* main.m */; };
+		F6023D6518E7DF4400DE779C /* DCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6023D6418E7DF4400DE779C /* DCDAppDelegate.m */; };
+		F6023D6818E7DF4400DE779C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6023D6618E7DF4400DE779C /* Main.storyboard */; };
+		F6023D6B18E7DF4400DE779C /* DCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6023D6A18E7DF4400DE779C /* DCDViewController.m */; };
+		F6023D6D18E7DF4400DE779C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6023D6C18E7DF4400DE779C /* Images.xcassets */; };
+		F6023D7418E7DF4400DE779C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6023D7318E7DF4400DE779C /* XCTest.framework */; };
+		F6023D7518E7DF4400DE779C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6023D5418E7DF4400DE779C /* Foundation.framework */; };
+		F6023D7618E7DF4400DE779C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6023D5818E7DF4400DE779C /* UIKit.framework */; };
+		F6023D7E18E7DF4400DE779C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6023D7C18E7DF4400DE779C /* InfoPlist.strings */; };
+		F6023D8018E7DF4400DE779C /* LearnigVariablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6023D7F18E7DF4400DE779C /* LearnigVariablesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6023D7718E7DF4400DE779C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6023D4918E7DF4400DE779C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6023D5018E7DF4400DE779C;
+			remoteInfo = LearnigVariables;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6023D5118E7DF4400DE779C /* LearnigVariables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnigVariables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6023D5418E7DF4400DE779C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6023D5618E7DF4400DE779C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6023D5818E7DF4400DE779C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6023D5C18E7DF4400DE779C /* LearnigVariables-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnigVariables-Info.plist"; sourceTree = "<group>"; };
+		F6023D5E18E7DF4400DE779C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6023D6018E7DF4400DE779C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6023D6218E7DF4400DE779C /* LearnigVariables-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnigVariables-Prefix.pch"; sourceTree = "<group>"; };
+		F6023D6318E7DF4400DE779C /* DCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDAppDelegate.h; sourceTree = "<group>"; };
+		F6023D6418E7DF4400DE779C /* DCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDAppDelegate.m; sourceTree = "<group>"; };
+		F6023D6718E7DF4400DE779C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6023D6918E7DF4400DE779C /* DCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDViewController.h; sourceTree = "<group>"; };
+		F6023D6A18E7DF4400DE779C /* DCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDViewController.m; sourceTree = "<group>"; };
+		F6023D6C18E7DF4400DE779C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6023D7218E7DF4400DE779C /* LearnigVariablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnigVariablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6023D7318E7DF4400DE779C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F6023D7B18E7DF4400DE779C /* LearnigVariablesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnigVariablesTests-Info.plist"; sourceTree = "<group>"; };
+		F6023D7D18E7DF4400DE779C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6023D7F18E7DF4400DE779C /* LearnigVariablesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnigVariablesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6023D4E18E7DF4400DE779C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6023D5718E7DF4400DE779C /* CoreGraphics.framework in Frameworks */,
+				F6023D5918E7DF4400DE779C /* UIKit.framework in Frameworks */,
+				F6023D5518E7DF4400DE779C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6023D6F18E7DF4400DE779C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6023D7418E7DF4400DE779C /* XCTest.framework in Frameworks */,
+				F6023D7618E7DF4400DE779C /* UIKit.framework in Frameworks */,
+				F6023D7518E7DF4400DE779C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6023D4818E7DF4400DE779C = {
+			isa = PBXGroup;
+			children = (
+				F6023D5A18E7DF4400DE779C /* LearnigVariables */,
+				F6023D7918E7DF4400DE779C /* LearnigVariablesTests */,
+				F6023D5318E7DF4400DE779C /* Frameworks */,
+				F6023D5218E7DF4400DE779C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6023D5218E7DF4400DE779C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6023D5118E7DF4400DE779C /* LearnigVariables.app */,
+				F6023D7218E7DF4400DE779C /* LearnigVariablesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6023D5318E7DF4400DE779C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6023D5418E7DF4400DE779C /* Foundation.framework */,
+				F6023D5618E7DF4400DE779C /* CoreGraphics.framework */,
+				F6023D5818E7DF4400DE779C /* UIKit.framework */,
+				F6023D7318E7DF4400DE779C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6023D5A18E7DF4400DE779C /* LearnigVariables */ = {
+			isa = PBXGroup;
+			children = (
+				F6023D6318E7DF4400DE779C /* DCDAppDelegate.h */,
+				F6023D6418E7DF4400DE779C /* DCDAppDelegate.m */,
+				F6023D6618E7DF4400DE779C /* Main.storyboard */,
+				F6023D6918E7DF4400DE779C /* DCDViewController.h */,
+				F6023D6A18E7DF4400DE779C /* DCDViewController.m */,
+				F6023D6C18E7DF4400DE779C /* Images.xcassets */,
+				F6023D5B18E7DF4400DE779C /* Supporting Files */,
+			);
+			path = LearnigVariables;
+			sourceTree = "<group>";
+		};
+		F6023D5B18E7DF4400DE779C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6023D5C18E7DF4400DE779C /* LearnigVariables-Info.plist */,
+				F6023D5D18E7DF4400DE779C /* InfoPlist.strings */,
+				F6023D6018E7DF4400DE779C /* main.m */,
+				F6023D6218E7DF4400DE779C /* LearnigVariables-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6023D7918E7DF4400DE779C /* LearnigVariablesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6023D7F18E7DF4400DE779C /* LearnigVariablesTests.m */,
+				F6023D7A18E7DF4400DE779C /* Supporting Files */,
+			);
+			path = LearnigVariablesTests;
+			sourceTree = "<group>";
+		};
+		F6023D7A18E7DF4400DE779C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6023D7B18E7DF4400DE779C /* LearnigVariablesTests-Info.plist */,
+				F6023D7C18E7DF4400DE779C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6023D5018E7DF4400DE779C /* LearnigVariables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6023D8318E7DF4400DE779C /* Build configuration list for PBXNativeTarget "LearnigVariables" */;
+			buildPhases = (
+				F6023D4D18E7DF4400DE779C /* Sources */,
+				F6023D4E18E7DF4400DE779C /* Frameworks */,
+				F6023D4F18E7DF4400DE779C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnigVariables;
+			productName = LearnigVariables;
+			productReference = F6023D5118E7DF4400DE779C /* LearnigVariables.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6023D7118E7DF4400DE779C /* LearnigVariablesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6023D8618E7DF4400DE779C /* Build configuration list for PBXNativeTarget "LearnigVariablesTests" */;
+			buildPhases = (
+				F6023D6E18E7DF4400DE779C /* Sources */,
+				F6023D6F18E7DF4400DE779C /* Frameworks */,
+				F6023D7018E7DF4400DE779C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6023D7818E7DF4400DE779C /* PBXTargetDependency */,
+			);
+			name = LearnigVariablesTests;
+			productName = LearnigVariablesTests;
+			productReference = F6023D7218E7DF4400DE779C /* LearnigVariablesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6023D4918E7DF4400DE779C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DCD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Desert Computers & Design";
+				TargetAttributes = {
+					F6023D7118E7DF4400DE779C = {
+						TestTargetID = F6023D5018E7DF4400DE779C;
+					};
+				};
+			};
+			buildConfigurationList = F6023D4C18E7DF4400DE779C /* Build configuration list for PBXProject "LearnigVariables" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6023D4818E7DF4400DE779C;
+			productRefGroup = F6023D5218E7DF4400DE779C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6023D5018E7DF4400DE779C /* LearnigVariables */,
+				F6023D7118E7DF4400DE779C /* LearnigVariablesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6023D4F18E7DF4400DE779C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6023D6D18E7DF4400DE779C /* Images.xcassets in Resources */,
+				F6023D5F18E7DF4400DE779C /* InfoPlist.strings in Resources */,
+				F6023D6818E7DF4400DE779C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6023D7018E7DF4400DE779C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6023D7E18E7DF4400DE779C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6023D4D18E7DF4400DE779C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6023D6518E7DF4400DE779C /* DCDAppDelegate.m in Sources */,
+				F6023D6118E7DF4400DE779C /* main.m in Sources */,
+				F6023D6B18E7DF4400DE779C /* DCDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6023D6E18E7DF4400DE779C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6023D8018E7DF4400DE779C /* LearnigVariablesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6023D7818E7DF4400DE779C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6023D5018E7DF4400DE779C /* LearnigVariables */;
+			targetProxy = F6023D7718E7DF4400DE779C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6023D5D18E7DF4400DE779C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6023D5E18E7DF4400DE779C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6023D6618E7DF4400DE779C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6023D6718E7DF4400DE779C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6023D7C18E7DF4400DE779C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6023D7D18E7DF4400DE779C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6023D8118E7DF4400DE779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6023D8218E7DF4400DE779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6023D8418E7DF4400DE779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnigVariables/LearnigVariables-Prefix.pch";
+				INFOPLIST_FILE = "LearnigVariables/LearnigVariables-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6023D8518E7DF4400DE779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnigVariables/LearnigVariables-Prefix.pch";
+				INFOPLIST_FILE = "LearnigVariables/LearnigVariables-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6023D8718E7DF4400DE779C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearnigVariables.app/LearnigVariables";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnigVariables/LearnigVariables-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LearnigVariablesTests/LearnigVariablesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F6023D8818E7DF4400DE779C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearnigVariables.app/LearnigVariables";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnigVariables/LearnigVariables-Prefix.pch";
+				INFOPLIST_FILE = "LearnigVariablesTests/LearnigVariablesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6023D4C18E7DF4400DE779C /* Build configuration list for PBXProject "LearnigVariables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6023D8118E7DF4400DE779C /* Debug */,
+				F6023D8218E7DF4400DE779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6023D8318E7DF4400DE779C /* Build configuration list for PBXNativeTarget "LearnigVariables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6023D8418E7DF4400DE779C /* Debug */,
+				F6023D8518E7DF4400DE779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6023D8618E7DF4400DE779C /* Build configuration list for PBXNativeTarget "LearnigVariablesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6023D8718E7DF4400DE779C /* Debug */,
+				F6023D8818E7DF4400DE779C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6023D4918E7DF4400DE779C /* Project object */;
+}
