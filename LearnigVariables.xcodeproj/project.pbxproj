@@ -21,6 +21,7 @@
 		F6023D7618E7DF4400DE779C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6023D5818E7DF4400DE779C /* UIKit.framework */; };
 		F6023D7E18E7DF4400DE779C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6023D7C18E7DF4400DE779C /* InfoPlist.strings */; };
 		F6023D8018E7DF4400DE779C /* LearnigVariablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6023D7F18E7DF4400DE779C /* LearnigVariablesTests.m */; };
+		F63FD01618E88F2200D47804 /* LikeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F63FD01518E88F2200D47804 /* LikeIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F6023D7B18E7DF4400DE779C /* LearnigVariablesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnigVariablesTests-Info.plist"; sourceTree = "<group>"; };
 		F6023D7D18E7DF4400DE779C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6023D7F18E7DF4400DE779C /* LearnigVariablesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnigVariablesTests.m; sourceTree = "<group>"; };
+		F63FD01518E88F2200D47804 /* LikeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LikeIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		F6023D5B18E7DF4400DE779C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F63FD01518E88F2200D47804 /* LikeIcon.png */,
 				F6023D5C18E7DF4400DE779C /* LearnigVariables-Info.plist */,
 				F6023D5D18E7DF4400DE779C /* InfoPlist.strings */,
 				F6023D6018E7DF4400DE779C /* main.m */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6023D6D18E7DF4400DE779C /* Images.xcassets in Resources */,
+				F63FD01618E88F2200D47804 /* LikeIcon.png in Resources */,
 				F6023D5F18E7DF4400DE779C /* InfoPlist.strings in Resources */,
 				F6023D6818E7DF4400DE779C /* Main.storyboard in Resources */,
 			);
@@ -457,6 +461,7 @@
 				F6023D8518E7DF4400DE779C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6023D8618E7DF4400DE779C /* Build configuration list for PBXNativeTarget "LearnigVariablesTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				F6023D8818E7DF4400DE779C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
